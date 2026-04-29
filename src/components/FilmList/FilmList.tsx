@@ -1,17 +1,19 @@
 
 
-export default function CourseList(){
+export default function FilmList(){
 
 
     return (
 
-    <div>
-        <h1>pagina da lista de cursos</h1>
+    <ul>
+        
+        <li></li>
 
-        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-    
-        </div>
-    </div>
+
+
+
+
+    </ul>
 
     );
 }

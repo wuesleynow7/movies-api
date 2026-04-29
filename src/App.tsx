@@ -1,12 +1,13 @@
 import './App.css'
-import CourseList from './components/FilmList/FilmList.tsx'
+
+import { Navbar } from './components/Navbar/index.tsx';
 
 
 
 function App() {
   return (
     <> {/* <--- Adicionado o Fragment aqui */}
-      <CourseList />
+      <Navbar/>
     </>
   );
 }
